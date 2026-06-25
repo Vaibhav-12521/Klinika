@@ -1112,7 +1112,6 @@ const INITIAL = () => {
       { profileId: 'u-patient-5', dob: '1995-06-18', gender: 'male'   },
     ],
     bookings: [
-      // Olena Shevchuk (current patient demo) — one upcoming, one past
       { id: 'b-1', doctorId: 'u-doctor-1', patientId: 'u-patient-1', startTime: atHour(addDays(t,0),16), endTime: atHour(addDays(t,0),17), status: 'confirmed', reason: 'Occasional chest discomfort at night, worse after caffeine.' },
       { id: 'b-2', doctorId: 'u-doctor-3', patientId: 'u-patient-1', startTime: atHour(addDays(t,-14),11),endTime: atHour(addDays(t,-14),12),status: 'completed', reason: 'Annual check-up for child.' },
       // Other doctors' bookings, to populate calendars
